@@ -15,6 +15,10 @@
 		1A790D7525D03CAD00961982 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A790D7325D03CAD00961982 /* LaunchScreen.storyboard */; };
 		1A790D8025D03CAE00961982 /* MentorBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A790D7F25D03CAE00961982 /* MentorBookTests.swift */; };
 		1A790D8B25D03CAE00961982 /* MentorBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A790D8A25D03CAE00961982 /* MentorBookUITests.swift */; };
+		1A790D9F25D03CD800961982 /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A790D9C25D03CD800961982 /* ryo.jpg */; };
+		1A790DA025D03CD800961982 /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A790D9D25D03CD800961982 /* nagata.jpg */; };
+		1A790DA125D03CD800961982 /* taithi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A790D9E25D03CD800961982 /* taithi.jpg */; };
+		1A790DA925D03F7D00961982 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A790DA825D03F7D00961982 /* Mentor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		1A790D8625D03CAE00961982 /* MentorBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentorBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A790D8A25D03CAE00961982 /* MentorBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorBookUITests.swift; sourceTree = "<group>"; };
 		1A790D8C25D03CAE00961982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A790D9C25D03CD800961982 /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		1A790D9D25D03CD800961982 /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		1A790D9E25D03CD800961982 /* taithi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.jpg; sourceTree = "<group>"; };
+		1A790DA825D03F7D00961982 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 		1A790D6725D03CAC00961982 /* MentorBook */ = {
 			isa = PBXGroup;
 			children = (
+				1A790D9B25D03CD800961982 /* images */,
 				1A790D6825D03CAC00961982 /* AppDelegate.swift */,
 				1A790D6A25D03CAC00961982 /* SceneDelegate.swift */,
 				1A790D6C25D03CAC00961982 /* ViewController.swift */,
@@ -106,6 +115,7 @@
 				1A790D7125D03CAD00961982 /* Assets.xcassets */,
 				1A790D7325D03CAD00961982 /* LaunchScreen.storyboard */,
 				1A790D7625D03CAD00961982 /* Info.plist */,
+				1A790DA825D03F7D00961982 /* Mentor.swift */,
 			);
 			path = MentorBook;
 			sourceTree = "<group>";
@@ -127,6 +137,16 @@
 			);
 			path = MentorBookUITests;
 			sourceTree = "<group>";
+		};
+		1A790D9B25D03CD800961982 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1A790D9C25D03CD800961982 /* ryo.jpg */,
+				1A790D9D25D03CD800961982 /* nagata.jpg */,
+				1A790D9E25D03CD800961982 /* taithi.jpg */,
+			);
+			path = images;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -231,6 +251,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A790DA125D03CD800961982 /* taithi.jpg in Resources */,
+				1A790D9F25D03CD800961982 /* ryo.jpg in Resources */,
+				1A790DA025D03CD800961982 /* nagata.jpg in Resources */,
 				1A790D7525D03CAD00961982 /* LaunchScreen.storyboard in Resources */,
 				1A790D7225D03CAD00961982 /* Assets.xcassets in Resources */,
 				1A790D7025D03CAC00961982 /* Main.storyboard in Resources */,
@@ -258,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A790DA925D03F7D00961982 /* Mentor.swift in Sources */,
 				1A790D6D25D03CAC00961982 /* ViewController.swift in Sources */,
 				1A790D6925D03CAC00961982 /* AppDelegate.swift in Sources */,
 				1A790D6B25D03CAC00961982 /* SceneDelegate.swift in Sources */,
